@@ -2,4 +2,11 @@
 <resources>
     <string name="app_name">Biométrico</string>
     <string name="action_settings">Seleccionar</string>
+    <string name="action_test">Login</string>
+    <string name="title_activity_test">Biométrico</string>
+    <string name="text_search">Nombre:</string>
+    <string name="button_take">Tomar foto</string>
+    <string name="button_compare">Comparar</string>
+    <string name="title_activity_camera">Cámara</string>
+    <string name="result">Resultado de comparación</string>
 </resources>

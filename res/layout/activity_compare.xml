@@ -1,0 +1,60 @@
+<ScrollView 
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/scroll" 
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    >
+	    
+	    <TextView
+	        android:id="@+id/textView2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/text_search"
+	        android:layout_weight="0" />
+	
+	    <Spinner
+	        android:id="@+id/autoCompleteTextView1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0"
+	        >
+	
+	        <requestFocus />
+	    </Spinner>
+	    
+	    <ImageView android:id="@+id/ImageView02"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" android:contentDescription="@string/app_name">
+		</ImageView>
+		
+	    <ImageView android:id="@+id/ImageView03"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" android:contentDescription="@string/app_name">
+		</ImageView>
+	    
+	    <Button
+	        android:id="@+id/button1"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:text="@string/button_take"
+	        />
+	    
+	     <Button
+	        android:id="@+id/button2"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:text="@string/button_compare"
+	        />
+	     
+	     <TextView
+	        android:id="@+id/textView3"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/result"
+	        android:layout_weight="0" />
+	</LinearLayout>
+</ScrollView>

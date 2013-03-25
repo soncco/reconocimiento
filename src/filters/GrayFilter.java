@@ -12,7 +12,7 @@ public class GrayFilter {
 	
 	public static Bitmap gray(Bitmap oldImage) {
 		
-		int red, green, blue, pixel, prom;
+		int red, green, blue, pixel;
 		Bitmap newBitmap = Bitmap.createBitmap(oldImage.getWidth(), oldImage.getHeight(), Config.ARGB_8888);
 		
         for(int i = 0; i < oldImage.getWidth(); i++) {
